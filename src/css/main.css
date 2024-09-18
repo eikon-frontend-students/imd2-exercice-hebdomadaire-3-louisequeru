@@ -12,3 +12,53 @@ img,
 video {
   display: block;
 }
+.inscription {
+  display: flex;
+  width: 300px;
+  height: 80px;
+  transform: rotate(-4deg);
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #f124f2;
+  box-shadow: 0px 7px 0px 0px #a819a8;
+  color: #fff;
+  font-family: Lato;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.newsletter {
+  display: flex;
+  width: 320px;
+  height: 70px;
+  transform: rotate(6deg);
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+  background: #684bd4;
+  color: #fff;
+  font-family: Lato;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 36;
+}
+.add-to-cart {
+  display: inline-flex;
+  padding: 25px 30px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+  background: #00b47e;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-family: Lato;
+  font-size: 22px;
+  font-weight: 400;
+}
+.call-to-actions {
+  width: 1728px;
+  height: 1117px;
+
+  margin: 40px;
+}
